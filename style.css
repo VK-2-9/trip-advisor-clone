@@ -362,4 +362,7 @@ font-size: 15px;
     .covertext{
         font-size: 10px;
     }
+    .covertext__h2{
+        display: none;
+    }
 }
