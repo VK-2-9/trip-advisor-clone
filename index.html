@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Trip Advisor clone</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Trip Advisor</title>
+    <link rel="stylesheet" href="style.css" />
     <!-- font awesome link -->
     <link
       rel="stylesheet"
@@ -16,57 +19,195 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header section -->
     <div class="header">
-        <div class="header__s1">
-            <img class="header__logo" src="images/webpagelogo.png" alt="Trip Advisor">
-            <h1>Tripadvisor</h1>
-        </div>
-        <div class="header__s2">
-            <h3>Discover</h3>
-            <h3>Trips</h3>
-            <h3>Review</h3>
-            <h3>Forums</h3>
-        </div>
-        <div class="header__s3">
-            <div class="header__s3__location">
-                🌏︎ | INR
-            </div>
-            <button class="header__s3__button">Sign in</button>
-        </div>   
+      <div class="header__s1">
+        <img
+          class="header__logo"
+          src="images/webpagelogo.png"
+          alt="Trip Advisor"
+        />
+        <h1>Tripadvisor</h1>
+      </div>
+      <div class="header__s2">
+        <h3>Discover</h3>
+        <h3>Trips</h3>
+        <h3>Review</h3>
+        <h3>Forums</h3>
+      </div>
+      <div class="header__s3">
+        <div class="header__s3__location">🌏︎ | INR</div>
+        <button class="header__s3__button">Sign in</button>
+      </div>
     </div>
-    <!-- Navigation section -->   
+    <!-- Navigation section -->
     <div class="navigation">
-        <h1 class="navigation__s1">Where to?</h1>
-        <div class="navigation__s2">
-            <p> 🏠︎ Search All</p>
-            <p>🛏 Hotels</p>
-            <p>🎫 Things to do</p>
-            <p>🍴 Restaurants</p>
-            <p>✈︎ Flights</p>
-            <p>🏘 Holiday Homes</p>
-        </div>
+      <h1 class="navigation__s1">Where to?</h1>
+      <div class="navigation__s2">
+        <p>🏠︎ Search All</p>
+        <p>🛏 Hotels</p>
+        <p>🎫 Things to do</p>
+        <p>🍴 Restaurants</p>
+        <p>✈︎ Flights</p>
+        <p>🏘 Holiday Homes</p>
+      </div>
 
-        <div class="navigation__s3">
-            <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
-            <input placeholder="Places to go, things to do, hotels...">
-            <button>Search</button>
-        </div>
+      <div class="navigation__s3">
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+        <input placeholder="Places to go, things to do, hotels..." />
+        <button>Search</button>
+      </div>
     </div>
 
-          <!--cover image-->  
-            <div class="cover">
-                <img src="images/coverImage.jpg" alt="cover">
-                <div class="covertext">
-                    <h1>Plan a trip that's so you</h1>
-                    <h4>From farm tours to forest bathing–get custom recs for whatever you're into.</h4>
-                </div>
-                <button>Start a trip</button>
-            </div>>    
+    <!--cover image-->
+    <div class="cover">
+      <img src="images/coverImage.jpg" alt="cover" />
+      <div class="covertext">
+        <h1>Plan a trip that's so you</h1>
+        <h4>
+          From farm tours to forest bathing–get custom recs for whatever you're
+          into.
+        </h4>
+      </div>
+      <button>Start a trip</button>
+    </div>
+
+    <!-- Images section -->
+    <div class="images__s1">
+      <h2>Explore the world’s most stunning seasides</h2>
+      <p>2025’s Travellers’ Choice Awards Best of the Best Beaches</p>
+      <div class="images__s1__scroll">
+        <p>World</p>
+        <img src="./images/world.jpg" alt="World" />
+        <p>Asia</p>
+        <img src="./images/asia.jpg" alt="Asia" />
+        <p>Carribean</p>
+        <img src="./images/carribean.jpg" alt="Carribean" />
+        <p>Europe</p>
+        <img src="./images/europe.jpg" alt="Europe" />
+        <p>South Pacific</p>
+        <img src="./images/southpacific.jpg" alt="South-Pacific" />
+      </div>
+    </div>
+    <!-- Images section 2 -->
+    <div class="images__s2">
+      <h2>Get inspired by our fave travel creators</h2>
+      <p>Tried-and-true guidance to fuel your next big trip</p>
+      <div class="images__s2__scroll">
+        <div class="images__s2__scroll__container">
+          <img src="./images/ashlyn.jpg" />
+          <p>By Ashlyn S</p>
+          <p>3 family-friendly days in Rome</p>
+        </div>
+
+        <div class="images__s2__scroll__container">
+          <img src="./images/tobad.jpg" />
+          <p>By Two Bad Tourists</p>
+          <p>Exploring LGBTQ+-friendly Barcelona</p>
+        </div>
+
+        <div class="images__s2__scroll__container">
+          <img src="./images/felicia.jpg" />
+          <p>By Felicia Wong</p>
+          <p>An unforgettable Yellowstone road trip</p>
+        </div>
+
+        <div class="images__s2__scroll__container">
+          <img src="./images/theso.jpg" />
+          <p>By thesojournies</p>
+          <p>A food-filled weekend in Chicago</p>
+        </div>
+      </div>
+    </div>
+    <!-- Images section 3 -->
+    <div class="images__s3">
+      <h2>More to explore</h2>
+      <div class="images__s3__scroll">
+        <div class="images__s3__scroll__container">
+          <img src="./images/bangkok.jpg" />
+          <p>
+            7 Bangkok hotels that highlight Thailand's spectacular architecture
+          </p>
+        </div>
+
+        <div class="images__s3__scroll__container">
+          <img src="./images/tokyo.jpg" />
+          <p>
+            7 Bangkok hotels that highlight Thailand's spectacular architecture
+          </p>
+        </div>
+
+        <div class="images__s3__scroll__container">
+          <img src="./images/bali.jpg" />
+          <p>
+            7 Bangkok hotels that highlight Thailand's spectacular architecture
+          </p>
+        </div>
+
+        <div class="images__s3__scroll__container">
+          <img src="./images/phuket.jpg" />
+          <p>
+            7 Bangkok hotels that highlight Thailand's spectacular architecture
+          </p>
+        </div>
+
+        <div class="images__s3__scroll__container">
+          <img src="./images/chiang.jpg" />
+          <p>
+            7 Bangkok hotels that highlight Thailand's spectacular architecture
+          </p>
+        </div>
+
+        <div class="images__s3__scroll__container">
+          <img src="./images/india.jpg" />
+          <p>
+            7 Bangkok hotels that highlight Thailand's spectacular architecture
+          </p>
+        </div>
+      </div>
+    </div>
 
 
-     
-</body>
+    <!-- Footer section -->
+    <div class="footer">
+      <div class="footer__s1">
+        <div class="footer__s1__1">
+          <h4>
+            About Tripadvisor
+          </h4>
+          <p>About Us</p>
+          <p>Press</p>
+          <p>Resources and Policies</p>
+          <p>Careers</p>
+          <p>Trust & Safety</p>
+          <p>Contact us</p>
+          <p>Accessibility Statement</p>
+        </div>
+
+        <div class="footer__s1__2">
+          <h4>
+            Explore
+          </h4>
+          <p>Write a review</p>
+          <p>Add a Place</p>
+          <p>Join </p>
+          <p>Travellers' Choice</p>
+          <p>Help Centre</p>
+          <p>Travel Stories</p>
+        </div>
+      </div>
+
+      <div class="footer__s2">
+
+          <h1>Tripadvisor</h1>
+          <p>&copy; 2025 Tripadvisor LLC All rights reserved.</p>
+
+      </div>
+    
+
+
+    </div>
+  </body>
 </html>
