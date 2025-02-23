@@ -313,7 +313,7 @@ font-size: 15px;
         
     }
     .covertext__h2{
-        font-size: 7px;
+        font-size: 4px;
     }
 
     .navigation__s1,.header__s2, .header__s3{
@@ -358,11 +358,5 @@ font-size: 15px;
 
 }
 
-@media screen and (max-width:600px){
-    .covertext{
-        font-size: 10px;
-    }
-    .covertext__h2{
-        display: none;
-    }
-}
+
+    
